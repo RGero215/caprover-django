@@ -1,0 +1,52 @@
+﻿#announcement-bar {
+    display: none;
+    width: 100%;
+    height: 40px;
+    background-color: #666;
+    text-align: center;
+}
+
+#announcement-bar.high { background-color: #FFE8E6; }
+
+#announcement-bar.medium { background-color: #FFEDDE; }
+
+#announcement-bar.low { background-color: #DFF0FF; }
+
+.announcement-bar-message {
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+    line-height: 16px;
+    color: #FFF;
+    font-size: 14px;
+}
+
+#announcement-bar .announcement-link {
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#announcement-bar .announcement-bar-dismiss {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#announcement-bar .announcement-bar-dismiss a { text-decoration-line: none !important; }
+
+#announcement-bar.high .announcement-bar-message,
+#announcement-bar.high .announcement-bar-dismiss a,
+#announcement-bar.high .announcement-link { color: #DB2828; }
+
+#announcement-bar.medium .announcement-bar-message,
+#announcement-bar.medium .announcement-bar-dismiss a,
+#announcement-bar.medium .announcement-link { color: #F2711C; }
+
+#announcement-bar.low .announcement-bar-message,
+#announcement-bar.low .announcement-bar-dismiss a,
+#announcement-bar.low .announcement-link { color: #333 !important; }
+
+.announcement-container { padding-top: 40px !important; }
+
+@media screen and (max-width: 400px) {
+    #announcement-bar .announcement-bar-message { font-size: 9px; }   
+}

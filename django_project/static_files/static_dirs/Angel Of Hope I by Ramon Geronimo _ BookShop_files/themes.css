@@ -1,0 +1,122 @@
+﻿
+/* =============================================================================
+   TOC
+   =============================================================================
+
+   Site Container, Site Container Sections and Content
+   Site Container > Footer Container
+
+*/
+
+/*  =============================================================================
+    Site Container, Site Container Sections and Content
+    ============================================================================= */
+
+    #site-container #content-container {
+        padding-top: 0;
+    }
+
+    #site-container #content {
+        max-width: none;
+    }
+
+    #site-container #content .wrapper {
+        padding: 0;
+    }
+
+    #site-container #content .wrapper #main-content {
+        padding-left: 0 !important;
+    }
+
+
+/*  =============================================================================
+    Footer
+    ============================================================================= */
+
+    #site-footer-container {
+        margin-bottom: 0;
+        padding-top: 10px;
+        padding-bottom: 0;
+    }
+
+    #site-footer-container #footer-bottom {
+        margin: 0 auto;
+    }
+
+    #site-footer-container #footer-bottom #footer-logo {
+        max-width: 1610px;
+        margin: 0;
+        padding: 15px;
+    }
+
+    #site-footer-container #footer-bottom #footer-logo a {
+        height: 35px;
+        margin-left: 20px;
+    }
+
+    #site-footer-container #footer-bottom #footer-logo a#btn-publish {
+        margin-left: 0;
+        height: auto;
+    }
+
+    #site-footer-container #footer-bottom #footer-logo a.lnk-cart {
+        margin-right: 0;
+    }
+
+    #site-footer-container #footer-bottom #footer-nav li:not(.list-bookshop) {
+        padding-top: 10px;
+    }
+
+    #site-footer-container #footer-bottom #footer-nav li a {
+        font-family: 'Roboto', serif;
+        font-size: 13px;
+    }
+
+    #site-footer-container #footer-bottom #footer-nav li.list-bookshop {
+        display: inline-block;
+    }
+
+    #site-footer-container #footer-bottom #footer-nav li.list-bookshop a {
+        text-align: center;
+    }
+
+    #site-footer-container #footer-bottom #footer-nav li.list-bookshop a span {
+        display: block;
+    }
+
+    #site-footer-container #mobile-footer-buttons {
+        margin: 0 auto 0;
+    }
+
+    #site-footer-container #mobile-footer-buttons #full-site-link #full-site-link-wrapper a:hover {
+        color: #c0d478 !important;
+    }
+
+    #site-footer-container #mobile-footer-buttons #full-site-link #full-site-link-wrapper .lnk-account i,
+    #site-footer-container #mobile-footer-buttons #full-site-link #full-site-link-wrapper .lnk-cart i {
+        float: left;
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    #site-footer-container #mobile-footer-buttons #full-site-link #full-site-link-wrapper .lnk-account span,
+    #site-footer-container #mobile-footer-buttons #full-site-link #full-site-link-wrapper .lnk-cart span {
+        width: 100%;
+        font-size: x-small;
+    }
+
+    #site-footer-container #mobile-footer-bottom {
+        margin: 15px auto;
+    }
+
+@media (max-width: 1023px) {
+    #site-footer-container #footer-bottom #footer-logo a {
+        margin-right: 0;
+    }
+}
+
+@media (min-width:1619px) {
+    #site-footer-container #footer-bottom {
+        max-width: none;
+    }
+}
